@@ -1,0 +1,12 @@
+#dependenceies
+node_modules/
+
+#build
+dist
+
+# IDE
+.iead
+
+# log
+
+*.log

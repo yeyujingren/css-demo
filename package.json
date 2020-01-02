@@ -1,0 +1,22 @@
+{
+  "name": "css-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config ./webpack.config.js",
+    "dev": "webpack --watch ./webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "css-loader": "^3.4.0",
+    "style-loader": "^1.1.1",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0"
+  }
+}
