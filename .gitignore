@@ -1,12 +1,11 @@
 #dependenceies
 node_modules/
 
-#build
-dist
-
 # IDE
 .iead
 
 # log
 
 *.log
+
+.DS_Store
