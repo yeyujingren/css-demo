@@ -77,5 +77,5 @@ window.onload = function () {
 // 浏览器刷新或者关闭当前页面时给出tips
 window.onbeforeunload = function (e) {
   e.preventDefault();
-  e.returnValue = tips;
+  e.returnValue = '';
 }
