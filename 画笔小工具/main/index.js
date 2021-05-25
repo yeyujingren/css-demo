@@ -4,6 +4,7 @@ function baseViewSetting(node) {
 }
 
 let painting = false;
+let color = '#000';
 let lastPoint = {
   x: null,
   y: null,
@@ -16,6 +17,12 @@ window.onload = function () {
     window.alert('您的浏览器暂时不支持canvas呦，请升级浏览器版本，或者更换其他浏览器🐶');
     return;
   }
+
+  const colorSetter = document.getElementById('color-select');
+  colorSetter.oninput = function(e) {
+    color = e.target.value;
+  }
+
   const ctx = draw.getContext('2d');
   baseViewSetting(draw);
 
@@ -33,6 +40,7 @@ window.onload = function () {
     ctx.moveTo(x1, y1);
     ctx.lineTo(x2, y2);
     ctx.stroke();
+    ctx.strokeStyle = color;
     ctx.closePath();
   }
 
