@@ -1,4 +1,4 @@
-import {drawCircle, drawLine, draw} from './modules/base.js';
+import {drawCircle, drawLine, draw, ctx} from './modules/base.js';
 
 
 let painting = false;
