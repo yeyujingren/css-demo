@@ -9,3 +9,8 @@
   - 回撤功能
   - 恢复功能
 
+- TIPS
+  - 在直接尝试使用本地文件系统加载html文件（如：file://xxx），由于Javascript模块的安全性邀请，会遇到CORS错误。因此需要通过服务器来加载。尝试运行以下命令来启动node服务器
+    - `node server.js`
+    - 浏览器中输入`localhost:9520`即可访问
+
