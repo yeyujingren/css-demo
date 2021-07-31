@@ -1,0 +1,4 @@
+export const STATUS = {
+  PAINTING: 'PAINTING',
+  ERASING: 'ERASING'
+}

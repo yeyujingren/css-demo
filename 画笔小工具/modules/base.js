@@ -8,11 +8,11 @@ draw.width = document.documentElement.clientWidth;
 draw.height = document.documentElement.clientHeight;
 
 // TODO move
-const img = new Image();
-img.src = './images/oxxw29.jpg';
-img.onload = function () {
-  ctx.drawImage(img, 0, 0, draw.width, draw.height);
-}
+// const img = new Image();
+// img.src = './images/oxxw29.jpg';
+// img.onload = function () {
+//   ctx.drawImage(img, 0, 0, draw.width, draw.height);
+// }
 
 downloadBtn.onclick = function (e) {
   e.preventDefault();
